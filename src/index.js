@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 // import BankDetails from './components/bank';
-import image01 from './image01.jpg';
+import image01 from './images/image01.jpg';
 import {ClassCount} from './components/classBank';
 import Count from './components/bank';
 import MirrorInput, {FormUpdate} from './components/state';

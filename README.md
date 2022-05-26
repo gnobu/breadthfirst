@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## About the Project
+In this project, I implemented the concept of breadth-first search algorithm to build a schematic of a social media search engine.
+This concept basically implies that a scan is done on the searcher's closest connections first, then if no result is found it proceeds 
+to the next level of connections (the connections of the searcher's connections) and so on, till the connection tree is exhausted.
+Eventually, an output (if found) is given, with the extent or depth of the connection.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What was Used?
+The project was built with the following:
+- JavaScript (handling the logic)
+- JavaScript library - React.js (handling the view)
+- Also, some HTML and CSS was used (out of necesity and because why not?).
+- Local storage and session storage were used to simulate back end calls.
 
-## Available Scripts
+## Try it out.
+To test it out, follow these steps:
+- Clone the repo and run "npm intall" to get necessary dependencies.
+- Run "npm start" to start up the app in your browser.
+- Sign up as many users as possible, as you need some users to search through.
+- Add up some "friends" (these are the connections).
+- Then search and see the output.
 
-In the project directory, you can run:
+## Screenshots.
+Just want to see the results? Here are some screenshots.
 
-### `npm start`
+### Signing into the App
+<img src="./src/images/signIn.png" alt="signing in">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Adding a Friend (Connection)
+<img src="./src/images/addingFriends.png" alt="adding friend">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Searching for a Skill
+<img src="./src/images/searchResults.png" alt="search results">

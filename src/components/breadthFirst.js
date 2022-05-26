@@ -197,6 +197,7 @@ export function SignIn(props){
             curr = connections[curr];
         }
         rel.reverse();
+        rel.splice(0, 1, "You")
         setSkillTree(prec => rel);
     }
 
@@ -250,8 +251,7 @@ export function SignIn(props){
                 {
                     (skillTree.length > 0)
                     ? <div>
-                        <p>Results:</p>
-                        <p>{skillTree[skillTree.length-1]}</p>
+                        <p>Results: {skillTree[skillTree.length-1]}</p>
                         <p>Connection:
                         {skillTree.map((person, idx) => <span key={idx}> {person}=&gt;</span>)}</p>
                     </div>
