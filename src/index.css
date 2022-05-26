@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #root{
   margin: 0;
   padding: 2rem 0;
@@ -49,4 +53,9 @@ img{
 hr {
   color: black;
   width: 100%;
+}
+
+.width-100 {
+  width: 100%;
+  overflow: hidden;
 }
